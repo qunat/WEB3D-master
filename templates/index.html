@@ -1,0 +1,151 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>JView--一款在线跨平台的3d查看器</title>
+    <!-- <meta name='Author' content='Thomas Paviot - tpaviot@gmail.com'> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name='Keywords' content='WebGl,pythonOCC'>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./static/3d/x3dom.css">
+    <script src="./static/3d/x3dom.js"></script>
+    <style>
+        body {
+           /* background: linear-gradient(#ced7de, #808080); */
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        #pythonocc_rocks {
+            padding: 5px;
+            position: absolute;
+            left: 1%;
+            bottom: 2%;
+            height: 38px;
+            width: 280px;
+            border-radius: 5px;
+            border: 2px solid #f7941e;
+            opacity: 0.7;
+            font-family: Arial;
+            background-color: #414042;
+            color: #ffffff;
+            font-size: 14px;
+            opacity: 0.5;
+        }
+
+        #commands {
+            padding: 5px;
+            position: absolute;
+            right: 1%;
+            top: 2%;
+            height: 65px;
+            width: 180px;
+            border-radius: 5px;
+            border: 2px solid #f7941e;
+            opacity: 0.7;
+            font-family: Arial;
+            background-color: #414042;
+            color: #ffffff;
+            font-size: 14px;
+            opacity: 0.5;
+        }
+
+        a {
+            color: #f7941e;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <x3d id="pythonocc-x3d-scene" style="width:100%;border: none">
+        <Scene>
+            <transform scale="1,1,1">
+                <transform id="glbal_scene_rotation_Id" rotation="1 0 0 -1.57079632679">
+                    <Inline id="file3d" onload="fitCamera()" mapDEFToID="true" url="12.x3d"></Inline>
+                </transform>
+        </Scene>
+    </x3d>
+
+    <div id="commands">
+        <b>t</b> view/hide shape<br>
+        <b>r</b> reset view<br>
+        <b>a</b> show all<br>
+        <b>u</b> upright<br>
+    </div>
+    <script>
+        var selected_target_color = null;
+        var current_selected_shape = null;
+        var current_mat = null;
+        function fitCamera() {
+            var x3dElem = document.getElementById('pythonocc-x3d-scene');
+            x3dElem.runtime.fitAll();
+            x3dElem.style.height= window.screen.availHeight +"px" ;
+            document.body.style.background="linear-gradient(#ced7de, #808080)"; 
+      
+        }
+        function select(the_shape) // called whenever a shape is clicked
+        {
+            // restore color for previous selected shape
+            if (current_mat) {
+                current_mat.diffuseColor = selected_target_color;
+            }
+            // store the shape for future process
+            current_selected_shape = the_shape;
+            console.log(the_shape);
+            // store color, to be restored later
+            appear = current_selected_shape.getElementsByTagName("Appearance")[0];
+            mat = appear.getElementsByTagName("Material")[0];
+            current_mat = mat;
+            console.log(mat);
+            selected_target_color = mat.diffuseColor;
+            mat.diffuseColor = "1, 0.65, 0";
+            //console.log(the_shape.getElementsByTagName("Appearance"));//.getAttribute('diffuseColor'));
+        }
+        function onDocumentKeyPress(event) {
+            event.preventDefault();
+            if (event.key == "t") {  // t key
+                if (current_selected_shape) {
+                    if (current_selected_shape.render == "true") {
+                        current_selected_shape.render = "false";
+                    }
+                    else {
+                        current_selected_shape.render = "true";
+                    }
+                }
+            }
+
+        }
+        // add events
+        document.addEventListener('keypress', onDocumentKeyPress, false);
+
+    </script>
+</body>
+
+</html>
+
+
+<script>
+
+    // zqw 2020年11月5日10:53:55
+    function GetQueryString(name) {
+
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return decodeURI(r[2]);
+        //但是在使用的过程中，发现其在获取中文参数的时候，获取到的值是乱码的
+        //解决办法:将解码方式unscape换为decodeURI
+        return null;
+    };
+
+    var url = document.getElementById("file3d");
+    url.setAttribute("url", GetQueryString('file'))
+
+  
+</script>

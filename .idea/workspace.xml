@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61f7f96e-0c85-4f5d-8cab-8c81ca145be3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stp_to_x3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_load_step_with_colors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/components/BVHRefiner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/components/CADGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/components/Geometry2D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/components/Geometry3DExt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/components/Geospatial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/components/H-Anim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/components/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/components/NURBS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/components/VolumeRendering.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/1.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/SPBC40-18-14.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/SPBC40-40-25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/STHCB25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/STHCBN15.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/STHCBN20.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/STHRB20.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/SU100x100_000_+__.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/SUJ100x100-10S_0100_+_CS1-B4-2_.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/TA20-1240.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/交通车辆/TACQ25X30S_0_+__.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/全部/1.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHATN16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHATN16.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHATN16.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHFTL16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHFTL16.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHFTL16.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHMPB15-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHMPB15-15.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHMPB15-15.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHQB16-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHQB16-25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHQB16-25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHSTBH13-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHSTBH13-15.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHSTBH13-15.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHTB13-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHTB13-20.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/导向轴支座/SHTB13-20.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MFNS12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MFNS12.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MFNS12.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MHCTS13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MHCTS13.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MHCTS13.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPBZ18-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPBZ18-9.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPBZ18-9.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPBZU15-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPBZU15-10.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPBZU15-10.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPCA12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPCA12.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPCA12.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPFZU12-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPFZU12-10.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPFZU12-10.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPRA12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPRA12.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPRA12.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPSA12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPSA12.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/MPSA12.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/SHTZ12-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/SHTZ12-25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/SHTZ12-25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/SMZH12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/SMZH12.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/无油衬套/SMZH12.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XEEG25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XEEG25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XEEG25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XEG25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XEG25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XEG25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XSFG40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XSFG40.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XSFG40.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XYEEG25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XYEEG25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XYEEG25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XYEG25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XYEG25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XYEG25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XYFG25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XYFG25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XYFG25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XZLNG25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XZLNG25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/XZLNG25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/ZEG25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/ZEG25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/ZEG25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/ZFG25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/ZFG25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/ZFG25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/ZLFG25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/ZLFG25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/滑台/ZLFG25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGCTB14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGCTB14.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGCTB14.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGHFB-C6002ZZ-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGHFB-C6002ZZ-25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGHFB-C6002ZZ-25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGRAB6202ZZ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGRAB6202ZZ.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGRAB6202ZZ.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGSCB6902ZZ-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGSCB6902ZZ-25.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGSCB6902ZZ-25.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGTAB6201ZZ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGTAB6201ZZ.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGTAB6201ZZ.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGTNB6201ZZ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGTNB6201ZZ.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BGTNB6201ZZ.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BSHWB6901ZZ-25-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BSHWB6901ZZ-25-20.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/3d/轴承固定座/BSHWB6901ZZ-25-20.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/12.x3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/6210ZZ.step" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/BHCBR608ZZ.step" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/MGW15C.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/RMS20X650LB_0_.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/SFU02504-4.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/STHRB20.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/XMB25.step" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/aaa.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/huqiong.stp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jpOfJuvhQHLanNY6xvMKEKlcWp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\共享\WEB3D-master" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.core_load_step_with_colors">
+    <configuration name="Stp_to_x3d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Users\DELL\anaconda3\envs\3D\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stp_to_x3d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="core_load_step_with_colors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Users\DELL\anaconda3\envs\3D\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core_load_step_with_colors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.core_load_step_with_colors" />
+        <item itemvalue="Python.Stp_to_x3d" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61f7f96e-0c85-4f5d-8cab-8c81ca145be3" name="Default Changelist" comment="" />
+      <created>1604497668505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604497668505</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="240" key="FileChooserDialogImpl" timestamp="1604888969360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="240" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604888969360" />
+    <state x="771" y="421" key="Github.CreateGistDialog" timestamp="1604887742092">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="771" y="421" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604887742092" />
+    <state x="815" y="417" key="Github.ShareDialog" timestamp="1604887436074">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="815" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604887436074" />
+    <state width="1882" height="282" key="GridCell.Tab.0.bottom" timestamp="1604895914935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1578" height="259" key="GridCell.Tab.0.bottom/0.0.1600.984@0.0.1600.984" timestamp="1604500078188" />
+    <state width="1882" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604895914935" />
+    <state width="1882" height="282" key="GridCell.Tab.0.center" timestamp="1604895914935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1578" height="259" key="GridCell.Tab.0.center/0.0.1600.984@0.0.1600.984" timestamp="1604500078188" />
+    <state width="1882" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604895914935" />
+    <state width="1882" height="282" key="GridCell.Tab.0.left" timestamp="1604895914935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1578" height="259" key="GridCell.Tab.0.left/0.0.1600.984@0.0.1600.984" timestamp="1604500078188" />
+    <state width="1882" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604895914935" />
+    <state width="1882" height="282" key="GridCell.Tab.0.right" timestamp="1604895914935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1578" height="259" key="GridCell.Tab.0.right/0.0.1600.984@0.0.1600.984" timestamp="1604500078188" />
+    <state width="1882" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604895914935" />
+    <state x="794" y="221" key="RollbackChangesDialog" timestamp="1604896156607">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604896156607" />
+    <state x="841" y="200" key="SettingsEditor" timestamp="1604889013761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="301" y="123" key="SettingsEditor/0.0.1600.984@0.0.1600.984" timestamp="1604497780494" />
+    <state x="841" y="200" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604889013761" />
+    <state x="593" y="156" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604498681674">
+      <screen x="0" y="0" width="1600" height="984" />
+    </state>
+    <state x="593" y="156" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.984@0.0.1600.984" timestamp="1604498681674" />
+  </component>
+</project>
